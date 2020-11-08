@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=org.mayank.event.framework.autoconfigure.event.EventFrameworkAutoConfiguration
