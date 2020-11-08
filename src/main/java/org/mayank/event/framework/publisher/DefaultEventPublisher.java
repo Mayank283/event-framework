@@ -9,7 +9,7 @@ import org.mayank.event.framework.messaging.service.MessagingService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * {@link DefaultEventPublisher} is used to publish all the events of reviews.
+ * {@link DefaultEventPublisher} is default implementation of {@link EventPublisher} to publish events.
  *
  * @author mayankagarwal
  */

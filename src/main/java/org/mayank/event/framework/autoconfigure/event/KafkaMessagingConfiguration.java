@@ -8,6 +8,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.core.KafkaTemplate;
 
+/**
+ * @author mayankagarwal
+ */
 @Configuration(proxyBeanMethods = false)
 @ConditionalOnClass({KafkaTemplate.class})
 @ConditionalOnProperty(name = "event.framework.messaging.kafka", havingValue = "true", matchIfMissing = true)

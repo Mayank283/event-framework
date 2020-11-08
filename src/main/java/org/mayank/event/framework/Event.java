@@ -5,6 +5,11 @@ import lombok.NonNull;
 import lombok.Setter;
 import lombok.ToString;
 
+/**
+ * {@link Event} is base event class containing basic event properties.
+ *
+ * @author mayankagarwal
+ */
 @Getter
 @Setter
 @ToString

@@ -12,9 +12,10 @@ import org.springframework.util.concurrent.ListenableFuture;
 import org.springframework.util.concurrent.ListenableFutureCallback;
 
 /**
+ * {@link KafkaMessagingService} implements {@link MessagingService} to publish event on kafka event bus.
+ *
  * @author mayankagarwal
  */
-
 @Slf4j
 public class KafkaMessagingService implements MessagingService
 {

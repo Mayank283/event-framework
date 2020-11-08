@@ -3,7 +3,6 @@ package org.mayank.event.framework.exception;
 /**
  * @author mayankagarwal
  */
-
 public class EventPublishingException extends Exception
 {
     public EventPublishingException()

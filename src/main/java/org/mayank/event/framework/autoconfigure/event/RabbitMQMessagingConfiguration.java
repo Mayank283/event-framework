@@ -8,6 +8,9 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * @author mayankagarwal
+ */
 @Configuration(proxyBeanMethods = false)
 @ConditionalOnClass({RabbitTemplate.class})
 @ConditionalOnProperty(name = "event.framework.messaging.rabbitmq", havingValue = "true", matchIfMissing = true)
